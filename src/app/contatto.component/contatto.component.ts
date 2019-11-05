@@ -9,5 +9,9 @@ styleUrls:['./contatto.component.css']
 })
 
 export class ContattoComponent{
-        contatto: Contatto = new Contatto('Alberto','Di Benedetto','alberto.dibenedetto@marconirovereto.it','3400050881',4);                                                            
+        contatto: Contatto = new Contatto('Alberto','Di Benedetto','alberto.dibenedetto@marconirovereto.it','3400050881',4);                                           
+        setPreferito(){
+
+          this.contatto.nrStelle=5;
+        }                 
 }

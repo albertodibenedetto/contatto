@@ -17,5 +17,9 @@ this.nrStelle=nrStelle;
 getNomeCompleto():string{
   return this.nome+" "+this.cognome;
 }
+setPreferito(){
+
+  this.nrStelle=5;
+}
 
 }
